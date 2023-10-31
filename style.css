@@ -1,0 +1,22 @@
+i.fa{
+    position:absolute;
+    left:67%;
+    top:57px;
+    cursor: pointer;
+    color: gray;
+    display: none;
+}
+
+.img{
+    transition: 0.4s;
+}
+
+.img:hover{
+    transform:scale(1.05,1.05);
+    box-shadow: 0 0 5px 1px gray ;
+}
+
+.yt:hover{
+    text-shadow: 0 0 4px red;
+    cursor:pointer;
+}
